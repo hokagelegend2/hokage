@@ -5,7 +5,7 @@
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</pre></code>
 
 ### INSTALL SCRIPT >1
-<pre><code>apt install curl -y && apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/BmyVpn/bumiayuvpn/main/main.sh && chmod +x main.sh && ./main.sh
+<pre><code>apt install curl -y && apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/hokagelegend2/hokage/refs/heads/main/main.sh && ./main.sh
 </code></pre>
 
 ### INSTALL SCRIPT >2
