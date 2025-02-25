@@ -38,7 +38,7 @@ fun_bar() {
 res1() {
     wget https://github.com/hokagelegend2/hokage/raw/refs/heads/main/Cdy/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/hokagelegend2/hokage/refs/heads/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pBumiAyuVpn12BAV menu.zip
+    7z x menu.zip
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
