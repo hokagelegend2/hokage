@@ -36,9 +36,9 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/BmyVpn/bumiayuvpn/main/Cdy/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/BmyVpn/bumiayuvpn/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pBumiAyuVpn12BAV menu.zip
+    wget https://github.com/hokagelegend2/hokage/raw/refs/heads/main/Cdy/menu.zip
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/hokagelegend2/hokage/refs/heads/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+    7z x -pHokageLegend menu.zip
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
@@ -49,7 +49,7 @@ res1() {
     rm -rf /usr/local/sbin/gz*
     rm -rf /usr/local/sbin/*.bak
     rm -rf /usr/local/sbin/m-noobz
-    wget /usr/local/sbin "https://raw.githubusercontent.com/BmyVpn/bumiayuvpn/main/Cfg/m-noobz" 
+    wget /usr/local/sbin "https://raw.githubusercontent.com/hokagelegend2/hokage/refs/heads/main/Cfg/m-noobz" 
     cp m-noobz /usr/local/sbin
     rm m-noobz*
     chmod +x /usr/local/sbin/m-noobz
